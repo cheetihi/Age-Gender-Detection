@@ -36,16 +36,20 @@ Download the pre-trained age and gender models from the following links and plac
 * Deploy Prototxt
 * Deploy Prototxt
 
-## Usage
-## Run the Application:
-python detect.py --image path_to_your_image.jpg
+## Usage :
+* Download my Repository
+* Open your Command Prompt or Terminal and change directory to the folder where all the files are present.
+* Detecting Gender and Age of face in Image Use Command :
+  `python detect.py --image <image_name>`
+Note: The Image should be present in same folder where all the files are present
 
-## or for real-time detection:
-python detect.py --video
+* Detecting Gender and Age of face through webcam Use Command :
+  `python detect.py`
+* Press Ctrl + C to stop the program execution.
 
-## Command Line Arguments:
---image: Path to the input image file.
---video: Use the webcam for real-time detection.
+## WORKING:
+![harshini](https://github.com/cheetihi/Age-Gender-Detection/assets/168654422/9247a25c-b632-4215-b2d0-0c87a25ba40c)
+
 
 ## Project Structure
 detect.py: Main script for running the age and gender detection.
